@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.Main_Controller">
+   <children>
+      <Label layoutX="243.0" layoutY="21.0" text="AGENDA">
+         <font>
+            <Font name="Arial Black" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="452.0" layoutY="344.0" mnemonicParsing="false" onAction="#btContato" text="VER CONTATOS" />
+      <Button layoutX="301.0" layoutY="344.0" mnemonicParsing="false" onAction="#btEncerrar" text="ENCERRAR PROGRAMA" />
+      <Label layoutX="60.0" layoutY="92.0" text="Nome" />
+      <Label layoutX="326.0" layoutY="92.0" text="Telefone" />
+      <Label layoutX="326.0" layoutY="160.0" text="Email" />
+      <Label layoutX="60.0" layoutY="160.0" text="Endereço" />
+      <TextField fx:id="tfNome" layoutX="121.0" layoutY="88.0" />
+      <TextField fx:id="tfTelefone" layoutX="390.0" layoutY="88.0" />
+      <TextField fx:id="tfEmail" layoutX="390.0" layoutY="156.0" />
+      <TextField fx:id="tfEndereco" layoutX="121.0" layoutY="156.0" />
+      <Button layoutX="413.0" layoutY="213.0" mnemonicParsing="false" onAction="#btSalvar" text="SALVA CONTATO" />
+   </children>
+</Pane>
